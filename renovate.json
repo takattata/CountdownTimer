@@ -5,8 +5,6 @@
   
   "packageRules": [
     {
-      "matchManagers": ["gradle", "gradlew"],
-      "matchPackagePatterns": ["*"],
       "matchUpdateTypes": ["minor","patch"],
       "groupName": "non-major dependencies"
     },
